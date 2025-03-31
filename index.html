@@ -1,160 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Projeto Portfólio">
+		<meta name="author" content="Eliane Medeiros">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		
+		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Portfólio">
-    <meta name="author" content="Eliane Medeiros Pontes">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-    <title>Meu Perfil</title>
-</head>
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
-<body>
-    <!-- Cabeçalho da Página (header) -->
-    <header>
-        <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
-            <!-- Titulo do Cabeçalho -->
-            <div id="titulo">
-                <!-- Seu nome -->
-                <h1>Eliane Medeiros </h1>
-            </div>
+		<title>Meu Perfil</title>
+	</head>
+	<body>
 
-            <!-- Conteudo do Menu da Página (header) -->
-            <div id="menu">
-                <!-- Menu da Página -->
-                <nav>
-                    <!-- Marcadores não ordenados + links -->
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html"> Home </a>
-                        </li>
-                        <li>
-                            <a href="contato.html"> Contato </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+		<!-- Cabeçalho da Página (header) -->
+		<header>
 
-    <!-- Seção Principal da Página (main) -->
-    <main>
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content" class="flex">
 
-        <!-- Seção Sobre você -->
-        <section id="about">
+				<!-- Titulo do Cabeçalho -->
+				<div id="titulo">
 
-            <!-- Título da Seção -->
-            <h2>Sobre a Eliane Medeiros</h2>
+					<!-- Seu nome -->
+					<h1>Eliane Medeiros</h1>
 
-            <!-- Conteúdo da Seção -->
-            <div id="conteudo">
+				</div>
 
-                <!-- Imagem do criador do conteúdo -->
-                <img src="https://github.com/ElianeMPontes.png" alt="Foto do criador desse conteudo" 
-                width="250"/>
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
 
-                <!-- Texto sobre o criador do conteúdo -->
-                <article id="sobre_texto">
-                    <p>
-                        Olá, sou Eliane, tenho 44 anos e uma trajetória profissional marcada por dedicação, aprendizado
-                        contínuo e resiliência. Movida pela inovação e pela busca constante por evolução, construí uma
-                        formação acadêmica que une Análise e Desenvolvimento de Sistemas e Recursos Humanos, combinando
-                        expertise técnica e visão estratégica para impulsionar soluções inovadoras e tecnológicas.<br><br>
+					<!-- Menu da Página -->
+					<nav>
 
-                        Iniciei minha jornada profissional aos 15 anos, desenvolvendo uma carreira sólida e
-                        multifacetada nas áreas administrativa, crédito e financeira. Atuei em grandes empresas, onde
-                        adquiri uma visão abrangente e estratégica do mercado, sempre focada em eficiência e resultados.<br><br>
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
 
-                        Atualmente, estou em transição de carreira para o universo da tecnologia, onde posso integrar
-                        minha vasta experiência profissional com meu conhecimento técnico, contribuindo para a criação
-                        de soluções digitais transformadoras e alinhadas às demandas do futuro. Acredito que a
-                        interseção entre tecnologia e gestão é o caminho para impulsionar inovação e valor em qualquer
-                        organização.
-                    </p>
-                    <p>
-                        Hard Skills:
+					</nav>
 
-                        <ul>
+				</div>
+
+			</div>
+
+		</header>
+
+		<!-- Seção Principal da Página (main) -->
+		<main>
+
+			<!-- Seção Sobre você -->
+			<section id="about" class="flex_start">
+
+				<!-- Título da Seção -->
+				<h2>Sobre a Eliane Medeiros</h2>
+
+				<!-- Conteúdo da Seção -->
+				<div id="conteudo" class="flex">
+
+					<!-- Imagem do criador do conteúdo -->
+					<img src="https://github.com/ElianeMPontes.png" alt="Foto do criador desse conteúdo" class="imagem-arredondada">
+
+					<!-- Texto sobre o criador do conteúdo -->
+					<!-- Texto sobre o criador do conteúdo -->
+                    <article id="sobre_texto">
+                        <p>
+                            Olá, sou Eliane, tenho 44 anos e uma trajetória profissional marcada por dedicação, aprendizado
+                            contínuo e resiliência. Movida pela inovação e pela busca constante por evolução, minha formação
+                            acadêmica une Análise e Desenvolvimento de Sistemas e Recursos Humanos, combinando expertise técnica e visão estratégica para impulsionar 
+                            soluções inovadoras e tecnológicas.<br>
+                        </p>
+                        <p>
+                            Hard Skills:
+    
+                            <ul>
                             <li>💻 Linguagens de Programação: Conhecimento em Java e Javascript, com foco no desenvolvimento de
-                        soluções eficientes e de qualidade.</li>
-                        <li>🌐 Desenvolvimento Web: Habilidade em HTML5, CSS3, ReactJS e TypeScript para construir
-                        interfaces modernas, intuitivas e responsivas e construção de APIs utilizando o Spring Boot.</li>
-                       <li>🚀 Metodologias Ágeis: Experiência em gestão e planejamento de projetos utilizando SCRUM,
-                        garantindo entregas ágeis e eficientes.</li>
-                        <li>🗃️ Banco de Dados: Conhecimento em bancos de dados relacionais (MySQL) para manipulação e
-                        análise de dados.</li>
-                        <li>🤖 Automação de Testes: Proficiência em Cypress.io para garantir qualidade e eficiência na
-                        automação de testes.</li>
-                    </ul>
-                        Soft Skills:
-
-                        <ul>
-                        <li>🌟 Proatividade: Habilidade para antecipar necessidades e agir com iniciativa, promovendo
-                        melhorias contínuas.</li>
-                        <li>🔄 Adaptabilidade: Flexibilidade para enfrentar mudanças e abraçar novos desafios com
-                        resiliência.</li>
-                        <li>🤝 Trabalho em Equipe: Colaboração harmoniosa em ambientes multidisciplinares, promovendo
-                        s//inergia e resultados coletivos.</li>
-                        <li>🗣️ Comunicação Eficaz: Capacidade de transmitir ideias com clareza e resolver conflitos de
-                        forma construtiva.</li>
-                        <li>🧠 Pensamento Crítico: Análise estratégica de problemas e tomada de decisões embasadas, visando
-                        soluções inovadoras.</li>
-                    </ul>
+                            soluções eficientes e de qualidade.</li>
+                            <li>🌐 Desenvolvimento Web: Habilidade em HTML5, CSS3, ReactJS e TypeScript para construir
+                            interfaces modernas, intuitivas e responsivas e construção de APIs utilizando o Spring Boot.</li>
+                            <li>🚀 Metodologias Ágeis: Experiência em gestão e planejamento de projetos utilizando SCRUM,
+                            garantindo entregas ágeis e eficientes.</li>
+                            <li>🗃️ Banco de Dados: Conhecimento em bancos de dados relacionais (MySQL) para manipulação e
+                            análise de dados.</li>
+                            <li>🤖 Automação de Testes: Proficiência em Cypress.io para garantir qualidade e eficiência na
+                            automação de testes.</li>
+                        </ul>
                     </p>
-                </article>
-            </div>
-        </section>
+                    <p>
+                        </ul>
+                            Soft Skills:
+    
+                            <ul>
+                            <li>🌟 Proatividade: Habilidade para antecipar necessidades e agir com iniciativa, promovendo
+                            melhorias contínuas.</li>
+                            <li>🔄 Adaptabilidade: Flexibilidade para enfrentar mudanças e abraçar novos desafios com
+                            resiliência.</li>
+                            <li>🤝 Trabalho em Equipe: Colaboração harmoniosa em ambientes multidisciplinares, promovendo
+                            s//inergia e resultados coletivos.</li>
+                            <li>🗣️ Comunicação Eficaz: Capacidade de transmitir ideias com clareza e resolver conflitos de
+                            forma construtiva.</li>
+                            <li>🧠 Pensamento Crítico: Análise estratégica de problemas e tomada de decisões embasadas, visando
+                            soluções inovadoras.</li>
+                        </ul>
+                        </p>
+                    </article>
+    
 
-        <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
-            
-            <!-- Título da Seção -->
-            <h2>Meu vídeo favorito:</h2>
+				</div>
 
-            <!-- Vídeo da Seção -->
-            <div class="youtube">
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                ></iframe>
-            </div>
+			</section>
 
-        </section>
+			<!-- Seção contendo um vídeo de sua preferência -->
+			<section id="video" class="flex_start">
 
-    </main>
+				<!-- Título da Seção -->
+				<h2>Meu vídeo favorito:</h2>
 
-    <!-- Rodapé da Página (footer) -->
-    <footer>
+				<!-- Vídeo da Seção -->
+				<div id="youtube" class="flex">
 
-        <footer>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					>
+					</iframe>
+
+				</div>
+
+			</section>
+			
+		</main>
+
+		<!-- Rodapé da Página (footer) -->
+		<footer class="flex">
 
 			<!-- Seção de Contato - Redes Sociais-->
-            <section id="redes_sociais">
+			<section id="redes_sociais">
 
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
+				<a href="">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
 
-            </section>
+			</section>
 
-			<h3>
-				Feito com 🧡 por Eliane Medeiros - 2025
-			</h3>
+			<h3>Feito com 🧡 por Eliane Medeiros - 2025</h3>
 
 		</footer>
-</body>
 
+	</body>
 </html>
