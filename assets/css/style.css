@@ -74,9 +74,9 @@ p{
     display: flex;
     justify-content: flex-start;
 }
- 
+
  /* Estilização da Seção Header */
- #header_content {
+#header_content {
     height: 80px;
     position: sticky; 
     top: 0; 
@@ -86,30 +86,30 @@ p{
     background-color: var(--rose-800);
     border-bottom: 1px solid var(--rose-500);
 }
- 
- #menu li {
+
+#menu li {
     display: inline;
     padding: 1rem;
- }
- 
- #menu li a {
+}
+
+#menu li a {
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
- }
- 
- #menu li a:hover {
+}
+
+#menu li a:hover {
     color: var(--rose-200);
     text-decoration: underline;
- }
- 
+}
+
  /* Estilização da Seção About */
 
- #about{
+#about{
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
- }
+}
 
 #conteudo{
     flex-direction: row;
@@ -122,14 +122,14 @@ p{
     height: 250px;
     border-radius: 50%; 
 }
- 
+
 /* Estilização da Seção Video */
 
 #video{
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
- }
+}
 
 /* Estilização da Seção Footer */
 
@@ -174,12 +174,12 @@ footer{
             contrast(88%);
 }
 
- /*Estilização da Página de Contato*/
- 
- #contact{
+/*Estilização da Página de Contato*/
+
+#contact{
     flex-direction: row;
     gap: 2rem;
- }
+}
 
 form {
     display: flex;
